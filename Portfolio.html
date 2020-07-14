@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Thats my awesome Website">
+    <title>Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+      <a href="Index.html" class="active">Home</a>
+      <a href="Portfolio.html">Portfolio</a>
+      <a href="CuriculumVitae.html">Curiculum Vitae</a>
+      <a href="Contact.html">Social Media</a>
+      <a href="javascript:void(0);" class="icon" onclick="showHideMobileNavigation()">
+        <i class="fas fa-bars"></i>
+      </a>
+    </div>
+    
+    <div class="div1">
+    
+    </div> 
+        <script>
+        function showHideMobileNavigation() {
+        var navigationElement = document.getElementById("myTopnav");
+        if (navigationElement.className === "topnav") {
+          navigationElement.className += " responsive";
+        } else {
+          navigationElement.className = "topnav";
+        }
+        }
+                </script>
+        <h2> A video I have directed and acted on 2010</h2>
+        <br/>
+    <div class="video">
+        <center><iframe width="760" height="515" src="https://www.youtube.com/embed/SDDkjNYUC-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+    </div>
+
+    
+<h2>A video tutorial I have created for web developers</h2>
+
+<div class="video">
+        <center><iframe width="760" height="515" src="https://www.youtube.com/embed/3JluqTojuME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+</div>
+    
+<h2>Some screenshots of websites I have built</h2>
+
+<div class="screenshots">
+    <center><img src="facebook.jpg"></img> </center>
+    <center><img src="youtube.jpg"></img> </center>
+</div>
+
+</body>
+
+</html>

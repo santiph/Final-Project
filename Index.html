@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Thats my awesome Website">
+    <title>Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+      <a href="Index.html" class="active">Home</a>
+      <a href="Portfolio.html">Portfolio</a>
+      <a href="CuriculumVitae.html">Curiculum Vitae</a>
+      <a href="Contact.html">Social Media</a>
+      <a href="javascript:void(0);" class="icon" onclick="showHideMobileNavigation()">
+        <i class="fas fa-bars"></i>
+      </a>
+    </div>
+    
+    <script>
+      function showHideMobileNavigation() {
+        var navigationElement = document.getElementById("myTopnav");
+        if (navigationElement.className === "topnav") {
+          navigationElement.className += " responsive";
+        } else {
+          navigationElement.className = "topnav";
+        }
+      }
+    </script>
+    <h1>Welcome to my webpage!</h1>
+
+    <article id="par1">
+      <p> My name is Nikolaos and I currently reside in Berlin, Germany. I am new to the developer world and very excited about it. Please use the navigation bar to find out more about me and my work!
+
+      </p>
+
+    </article> 
+    <iframe class="gif" src="https://giphy.com/embed/l2JHPBjZZPkUCWQSc" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/giphycam-sundance-2016-l2JHPBjZZPkUCWQSc"></a></p>
+    
+       
+  </body>
+    </html>
+</html>
